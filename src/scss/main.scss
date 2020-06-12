@@ -1,10 +1,11 @@
 @import "_normalize";
 @import "_variables";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-
+@import "modules/about.scss";
 
 html {
   box-sizing: border-box;
+  font-size: 16px;
 }
 
 *, *:before, *:after {
@@ -16,4 +17,9 @@ body {
   background: $white;
   font-family: 'Poppins', sans-serif;
   border: 16px solid $bigStone;
+}
+
+.main-container {
+  max-width: 1184px;
+  margin: auto;
 }
