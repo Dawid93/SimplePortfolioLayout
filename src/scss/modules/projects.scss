@@ -1,0 +1,101 @@
+.projects {
+    background: $lightGray;
+    padding: 128px 0;
+
+    &__description {
+        font-weight: 300;
+        font-size: 1.25rem;
+        line-height: 2.25rem;
+        color: $bigStone;
+        max-width: 580px;
+        margin: 0;
+    }
+
+    &__title { 
+        font-size: 2.25rem;
+        font-weight: 600;
+        font-style: normal;
+        margin: 16px 0 8px;
+    }
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+    row-gap: 24px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.project {
+    background: $white;
+    border-radius: 8px;
+    box-shadow: 0 6px 16px rgba(24, 41, 67, $alpha: 0.1);
+    overflow: hidden;
+
+    &__container {
+        padding: 48px;
+    }
+
+    &__title {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.125rem;
+        line-height: 2.25rem;
+        margin: 0;
+    }
+
+    &__description {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 1.25rem;
+        line-height: 2rem;
+    }
+
+    &__footer {
+        background: $lightGray;
+        padding: 16px 48px;
+        text-align: right;
+    }
+
+    &__link {
+        font-size: 1.125rem;
+        font-weight: 500;
+        line-height: 2rem;
+        color: $azureRadiance;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+
+        & + & {
+            margin-left: 50px;
+            position: relative;
+
+            &::after {
+                content: '';
+                display: block;
+                height: 32px;
+                width: 2px;
+                background: #CBD2D9;
+                position: absolute;
+                left: -26px;
+                pointer-events: none;
+            }
+        }
+
+        &::before {
+            content: '';
+            display: block;
+            width: 24px;
+            height: 24px;
+            margin-right: 8px;
+            background: url(../assets/img/demo-icon.svg);
+        }
+        &--repo::before {
+            background: url(../assets/img/source-icon.svg);
+
+        }
+    }
+}
