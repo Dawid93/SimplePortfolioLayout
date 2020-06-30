@@ -1,3 +1,8 @@
+.container {
+    max-width: $desktop;
+    margin: auto;
+}
+
 .projects {
     background: $lightGray;
     padding: 128px 0;

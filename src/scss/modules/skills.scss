@@ -1,4 +1,6 @@
 .skills {
+    max-width: $desktop;
+    margin: auto;
     margin-bottom: 128px;
     &__title {
         font-size: 2.25rem;

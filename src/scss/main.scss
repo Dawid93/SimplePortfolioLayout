@@ -4,6 +4,7 @@
 @import "modules/about.scss";
 @import "modules/skills.scss";
 @import "modules/projects.scss";
+@import "modules/footer.scss";
 
 html {
   box-sizing: border-box;
@@ -20,9 +21,4 @@ body {
   background: $white;
   font-family: 'Poppins', sans-serif;
   border: 16px solid $bigStone;
-}
-
-.main-container {
-  max-width: 1184px;
-  margin: auto;
 }

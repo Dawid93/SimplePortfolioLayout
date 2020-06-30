@@ -21,48 +21,48 @@
 </head>
 
 <body>
-  <main class="main-container">
-    <!-- Section about -->
-    <section class="about">
-      <img src="assets/img/avatar.png" class="about__image" alt="Moje zdjęcie" />
-      <h1 class="about__title">Cześć! 👋🏻 Mam na imię Dawid i jestem Game Developerem z kilku letnim doświadczeniem
-        oraz zagorzałym fanem elektronicznej rozrywki. </h1>
-      <p class="about__description">Jeśli jesteś ciekaw nad czym do tej pory pracowałem lub jakie są moję umiejetności
-        to zerknij do sekcji z moim <a class="about__link" href="#my-experience">doświadczeniem</a> z <a
-          class="about__link" href="#my-projects">projektami</a> lub <a class="about__link"
-          href="#my-skills">umiejetnościami</a>.</p>
+  <!-- Section about -->
+  <section class="about">
+    <img src="assets/img/avatar.png" class="about__image" alt="Moje zdjęcie" />
+    <h1 class="about__title">Cześć! 👋🏻 Mam na imię Dawid i jestem Game Developerem z kilku letnim doświadczeniem
+      oraz zagorzałym fanem elektronicznej rozrywki. </h1>
+    <p class="about__description">Jeśli jesteś ciekaw nad czym do tej pory pracowałem lub jakie są moję umiejetności
+      to zerknij do sekcji z moim <a class="about__link" href="#my-experience">doświadczeniem</a> z <a
+        class="about__link" href="#my-projects">projektami</a> lub <a class="about__link"
+        href="#my-skills">umiejetnościami</a>.</p>
 
-      <a class="about__mail" href="mailto:template@mail.com">Template Mail</a>
+    <a class="about__mail" href="mailto:template@mail.com">Template Mail</a>
+  </section>
+
+  <!-- Section skills -->
+  <section class="skills" id="my-skills">
+    <h2 class="skills__title">Umiejetności</h2>
+
+    <section class="skills-list skills-list--green">
+      <h3 class="skills-list__title">Główne</h3>
+      <ul class="skills-list__list">
+        <li class="skills-list__item">Unity</li>
+        <li class="skills-list__item">C#</li>
+        <li class="skills-list__item">GIT</li>
+        <li class="skills-list__item">C#</li>
+        <li class="skills-list__item">MarkDown</li>
+      </ul>
     </section>
 
-    <!-- Section skills -->
-    <section class="skills" id="my-skills">
-      <h2 class="skills__title">Umiejetności</h2>
-
-      <section class="skills-list skills-list--green">
-        <h3 class="skills-list__title">Główne</h3>
-        <ul class="skills-list__list">
-          <li class="skills-list__item">Unity</li>
-          <li class="skills-list__item">C#</li>
-          <li class="skills-list__item">GIT</li>
-          <li class="skills-list__item">C#</li>
-          <li class="skills-list__item">MarkDown</li>
-        </ul>
-      </section>
-
-      <section class="skills-list skills-list--violet">
-        <h3 class="skills-list__title">Dodatkowe</h3>
-        <ul class="skills-list__list">
-          <li class="skills-list__item">HTML5</li>
-          <li class="skills-list__item">CSS3</li>
-          <li class="skills-list__item">SASS</li>
-          <li class="skills-list__item">Figma</li>
-        </ul>
-      </section>
+    <section class="skills-list skills-list--violet">
+      <h3 class="skills-list__title">Dodatkowe</h3>
+      <ul class="skills-list__list">
+        <li class="skills-list__item">HTML5</li>
+        <li class="skills-list__item">CSS3</li>
+        <li class="skills-list__item">SASS</li>
+        <li class="skills-list__item">Figma</li>
+      </ul>
     </section>
+  </section>
 
-    <!-- Projects -->
-    <section class="projects" id="my-projects">
+  <!-- Projects -->
+  <section class="projects" id="my-projects">
+    <div class="container">
       <h2 class="projects__title">Projekty</h2>
       <p class="projects__description">Przegląd kilku moich prywatnych pobocznych projektów, które rozpocząłem z chęci
         poznania kilku technologii. 😅</p>
@@ -116,9 +116,11 @@
           </div>
         </li>
       </ul>
-    </section>
+    </div>
+  </section>
 
-    <footer class="footer">
+  <footer class="footer">
+    <div class="container">
       <section class="contact">
         <h2 class="contact__title">Kontakt</h2>
         <p class="contact__description">Jestem otwarty na nowe propozycje współpracy.</p>
@@ -134,12 +136,11 @@
         <a class="contact__mail" href="mailto:template@mail.com">Template Mail</a>
       </section>
 
-      <p class="footer__desription">
-        Created by Dave.
+      <p class="footer__description">
+        Created with pleasure by Dave.
       </p>
-    </footer>
-
-  </main>
+      </div>
+  </footer>
   <script src="js/main.js"></script>
 </body>
 

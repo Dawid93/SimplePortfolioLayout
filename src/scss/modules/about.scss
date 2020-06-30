@@ -1,6 +1,8 @@
 .about {
     padding: 112px 0 184px;
     color: $bigStone;
+    max-width: $desktop;
+    margin: auto;
 
     &__image {
         width: 128px;
