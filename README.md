@@ -1,4 +1,14 @@
-# wtf-gulp-starter
+# Simple portfolio layou
+
+Realy simple responsive layout which I create during frontend course. This site was created with:
+- HTML5
+- SASS
+
+## Demo:
+
+I can see site in action under this [link](https://dawid93.github.io/SimplePortfolioLayout/)
+
+## wtf-gulp-starter
 
 `npm install -g gulp-cli`
 
