@@ -1,5 +1,6 @@
 .container {
     max-width: $desktop;
+    padding: 0 16px;
     margin: auto;
 }
 
@@ -33,6 +34,10 @@
     margin: 0;
     padding: 0;
     list-style-type: none;
+
+    @media (max-width: $mobile) {
+        grid-template-columns: 1fr;
+    }
 }
 
 .project {
@@ -82,7 +87,7 @@
             &::after {
                 content: '';
                 display: block;
-                height: 32px;
+                height: 2rem;
                 width: 2px;
                 background: #CBD2D9;
                 position: absolute;

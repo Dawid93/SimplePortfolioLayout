@@ -1,7 +1,7 @@
 .skills {
     max-width: $desktop;
-    margin: auto;
-    margin-bottom: 128px;
+    padding: 0 16px;
+    margin: 0 auto 128px;
     &__title {
         font-size: 2.25rem;
         font-weight: 600;
@@ -17,6 +17,10 @@
     padding: 128px 0 0 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    @media (max-width: $mobile) {
+        grid-template-columns: 1fr;
+    }
 
     &__title {
         color: $bigStone;
@@ -39,7 +43,7 @@
     }
     &__list {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: repeat(auto-fill, minmax(280px 1fr));
         list-style-type: none;
         padding: 0;
         margin: 28px 0;

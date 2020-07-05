@@ -1,5 +1,5 @@
 .about {
-    padding: 112px 0 184px;
+    padding: 112px 16px 184px;
     color: $bigStone;
     max-width: $desktop;
     margin: auto;
@@ -20,7 +20,7 @@
     }
 
     &__description {
-        width: 780px;
+        max-width: 780px;
         font-family: Poppins;
         font-style: normal;
         font-weight: 300;

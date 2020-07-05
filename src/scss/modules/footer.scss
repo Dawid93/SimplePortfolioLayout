@@ -14,7 +14,7 @@
 .container {
     max-width: $desktop;
     margin: auto;
-    padding-bottom: 32px;
+    padding: 0 16px 32px;
 }
 
 .contact {
@@ -68,7 +68,9 @@
         height: 25px;
     }
 
-    &__link {}
+    &__link {
+        text-decoration: none;
+    }
 
     &__icon {
         
