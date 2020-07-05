@@ -1,4 +1,4 @@
-# Simple portfolio layou
+# Simple portfolio layout
 
 Realy simple responsive layout which I create during frontend course. This site was created with:
 - HTML5
